@@ -1,0 +1,13 @@
+.dashboard-container {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Adjusted for better alignment */
+  max-width: 1000px; /* Set a smaller maximum width */
+  gap: 20px; /* Manages the space between the cards */
+  margin-right: 400px;
+}
+
+.card-container {
+  margin: 10px; /* Reduced margin for closer card placement */
+}

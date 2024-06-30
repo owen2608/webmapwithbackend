@@ -1,0 +1,21 @@
+.custom-margin-left {
+  margin-left: 20px; /* Adjust the value as needed */
+}
+
+.custom-margin-right {
+  margin-right: 50px;
+}
+
+.navbar-container {
+  position: sticky; /* or 'sticky' if you prefer */
+  top: 0;
+  width: 100%;
+  z-index: 1020; /* Ensures it stays on top of other content */
+}
+
+.stay-at-top {
+  position: fixed; /* Keeps the navbar fixed at the top of the screen */
+  top: 0; /* Aligns the navbar at the top of the viewport */
+  width: 100%; /* Ensures the navbar spans the full width of the viewport */
+  z-index: 1030; /* High z-index to keep it above other page content */
+}
