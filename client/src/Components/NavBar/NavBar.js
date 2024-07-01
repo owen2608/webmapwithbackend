@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./NavBar.css"; // Import the custom CSS file
+import logo from "./../../logo.svg";
 
 function NavBar() {
   return (
@@ -51,10 +52,9 @@ function NavBar() {
           </li>
         </ul>
       </div>
-
-      <button type="button" className="btn btn-danger custom-margin-right">
+      {/* <button type="button" className="btn btn-danger custom-margin-right">
         Add Item
-      </button>
+      </button> */}
     </nav>
   );
 }

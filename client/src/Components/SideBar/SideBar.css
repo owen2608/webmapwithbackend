@@ -1,0 +1,22 @@
+.sidebar {
+  width: absolute;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-right: 1px solid #ddd;
+  height: 100vh; /* Full height */
+  overflow-y: auto; /* Scrollable if content is longer than the viewport */
+  margin-top: 50px;
+}
+
+.app-container {
+  display: flex;
+}
+
+.dashboard-container {
+  flex-grow: 1; /* Take up the remaining space */
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
